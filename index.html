@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - Ads Website</title>
+    <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to our Ads Website</h1>
+        <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="dashboard.php">Dashboard</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find the Best Ads for Your Needs</h2>
+        <!-- Placeholder for video ad -->
+        <div class="video-ad">
+            <!-- Video ad content here -->
+            <video controls>
+                <source src="video-ad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Features/Services Section -->
+    <section class="features">
+        <h2>Our Services</h2>
+        <p>Discover the range of advertising services we offer to help you reach your audience.</p>
+        <!-- List of services -->
+        <ul>
+            <li>Display Ads</li>
+            <li>Video Ads</li>
+            <li>Native Ads</li>
+            <!-- Add more services as needed -->
+        </ul>
+    </section>
+
+    <!-- Testimonials/Reviews Section -->
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <!-- Placeholder for testimonials -->
+        <div class="testimonial">
+            <p>"Great experience with this website! Highly recommended!"</p>
+            <p>- John Doe, CEO</p>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Ready to Get Started?</h2>
+        <p>Sign up now to access our premium advertising services!</p>
+        <button>Sign Up</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ads Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+<script>
+    // JavaScript code goes here
+    document.addEventListener('DOMContentLoaded', function () {
+        // Add click event listener to sign-up button
+        var signUpButton = document.querySelector('.cta button');
+        signUpButton.addEventListener('click', function () {
+            // Redirect to sign-up page or perform sign-up action
+            window.location.href = 'signup.html';
+        });
+    });
+</script>
